@@ -15,12 +15,13 @@
     <value>Você não parece estar em um jogo agora...</value>
   </string>
   <string key="PlayerStartedGame" isgif="true">
+    <!-- 0 - Nome do jogador -->
     <value>{0} iniciou uma nova partida! Use /join para entrar na brincadeira... e provavelmente ser morto :P</value>
     <value>Uma nova partida foi iniciada por {0}! Use /join para ser devorado(a)!</value>
   </string>
   <string key="PlayerStartedChaosGame" isgif="true">
+    <!-- 0 - Nome do jogador -->
     <value>{0} começou um jogo caótico. Use /join para começar a diversão... e provavelmente morrer :P</value>
-    <value>Um novo jogo caótico foi iniciado por {0}! Use /join para entrar nessa loucura!</value>
   </string>
   <string key="NoJoinGameRunning">
     <value>Você não pode entrar agora! O jogo já começou. Use /nextgame para receber uma mensagem no privado quando uma nova partida for iniciada!</value>
@@ -32,7 +33,8 @@
     <value>1 minuto restando para enviar o /join</value>
   </string>
   <string key="SecondsLeftToJoin">
-    <value>{0} segundos restando entrar!</value>
+    <!-- 0 - segundos restantes (número) -->
+    <value>{0} segundos restando para entrar!</value>
   </string>
   <string key="NotEnoughPlayers">
     <value>Quantidade mínima de jogadores não foi atingida, cancelando a partida!</value>
@@ -41,15 +43,21 @@
     <value>A partida está iniciando, por favor aguarde enquanto distribuo os papéis e atualizo o banco de dados.</value>
   </string>
   <string key="BannedForExploit">
+    <!-- 0 - Nome do jogador -->
     <value>{0} está banido(a) por tentar explorar um erro (não são permitidos nomes iniciados por /)</value>
   </string>
   <string key="ChangeNameToJoin">
+    <!-- 0 - Nome do jogador -->
     <value>{0}, por favor mude seu nome para entrar na partida</value>
   </string>
   <string key="PlayerLimitReached">
     <value>Sinto muito, o número máximo de jogadores foi atingido!</value>
   </string>
   <string key="PlayerJoined">
+    <!-- 0 - Nome do jogador -->
+    <!-- 1 - jogadores atuais -->
+    <!-- 2 - Mínimo de jogadores -->
+    <!-- 3 - Máximo de jogadores -->
     <value>{0} se juntou à partida. {1} jogadores, {2} mínimo, {3} máximo</value>
   </string>
   <string key="PMTheBot">
@@ -85,9 +93,13 @@
     <value>Essa resposta não é válida!</value>
   </string>
   <string key="WolfVotedKill">
+    <!-- 0 - Nome do amigo Lobo -->
+    <!-- 1 - Nome da vítima -->
     <value>{0} votou para devorar {1}</value>
   </string>
   <string key="PlayerVotedLynch">
+    <!-- 0 - Nome de quem votou -->
+    <!-- 1 - Nome do alvo -->
     <value>{0} votou para enforcar {1}</value>
   </string>
   <string key="IdleKill">
@@ -102,15 +114,21 @@
     <value>Opção aceita</value>
   </string>
   <string key="BeholderSeer">
+    <!-- 0 - Nome da vidente -->
     <value>\nA vidente é {0}</value>
   </string>
   <string key="ApprenticeNowSeer">
+    <!-- 0 - Nome da vidente -->
     <value>{0} era a vidente. Como aprendiz, você pega sua bola de cristal e se torna a nova vidente.</value>
   </string>
   <string key="BeholderNewSeer">
+    <!-- 0 - Nome do aprendiz de vidente -->
+    <!-- 1 - Nome da vidente -->
     <value>{0} era uma aprendiz e agora tomou o lugar de {1} como a nova vidente.</value>
   </string>
   <string key="SeerSees">
+    <!-- 0 - Nome do jogador -->
+    <!-- 1 - Papel do jogador -->
     <value>Você vê que {0} é {1}!</value>
   </string>
   <string key="AskLynch">
@@ -120,6 +138,7 @@
     <value>Quem você gostaria de investigar?</value>
   </string>
   <string key="AskShoot">
+    <!-- 0 - Contador de balas -->
     <value>Em quem você gostaria de atirar? {0} bala(s) restantes</value>
   </string>
   <string key="AskVisit">
@@ -144,6 +163,7 @@
     <value>Quem você gostaria de converter para a Seita?</value>
   </string>
   <string key="DiscussWith"><!--Deixe os espaços iniciais aqui por favor-->
+    <!-- 0 - Nome dos amigos no time -->
     <value>  Lembre-se de discutir com {0}</value>
   </string>
   <string key="And"> <!--Isto é exibido junto com "DiscussWith. Novamente, deixe os espaços!-->
@@ -198,18 +218,20 @@
     <value >A Seita está na sua Aldeia tentando converter todo mundo, e você, o Inquisidor, deve proteger a Aldeia! Durante a noite você poderá escolher alguém para inquirir. Se ele(a) for da Seita, ele(a) morre. Caso a Seita tente te converter, o membro mais recente morre.</value>
   </string>
   <string key="LynchTime" >
-    <value >
-      A noite se aproxima e os aldeões se reúnem para decidir quem irá para a forca hoje...
-      Todo mundo tem agora {0} segundos para votar!
-    </value>
+    <!-- 0 - Número de segundos -->
+    <value >A noite se aproxima e os aldeões se reúnem para decidir quem irá para a forca hoje... \nTodo mundo tem agora {0} segundos para votar!</value>
   </string>
   <string key="DayTime" >
+    <!-- 0 - Número de segundos -->
     <value >Amanheceu na Aldeia. Vocês têm agora {0} segundos para fazer suas acusações / defesas e discutir.</value>
   </string>
   <string key="NightTime" >
+    <!-- 0 - Número de segundos -->
     <value >Caiu a noite. Todos vão dormir bastante cansados após mais um dia bem estressante. Jogadores: vocês têm {0} segundos para usar suas ações!</value>
   </string>
   <string key="LynchKill" >
+    <!-- 0 - Nome do jogador -->
+    <!-- 1 - Papel do jogador -->
     <value >Os aldeões votaram, em meio a dúvidas e suspeitas. {0} está morto(a). {1}</value>
   </string>
   <string key="LynchTie" >
@@ -219,27 +241,36 @@
     <value >Alguma coisa está cheirando mal, ninguém votou!  Ninguém será enforcado hoje...</value>
   </string>
   <string key="DetectiveEaten" >
+    <!-- 0 - Nome da vítima -->
     <value >Os aldeões se reúnem durante a manhã, mas ninguém consegue achar {0} entre eles. Eles correm para sua casa e encontram {0} despedaçado, com um distintivo enferrujado enfiado em sua goela. {0} Era o detetive!</value>
   </string>
   <string key="GuardianEaten" >
+    <!-- 0 - Nome da vítima -->
     <value >A manhã chega e, para a surpresa de todos, empalado no topo da cruz da igreja estava o corpo de {0}, o Anjo da Guarda, sem vida.</value>
   </string>
   <string key="GunnerEaten" >
+    <!-- 0 - Nome da vítima -->
     <value >Todos saem de casa e então encontram pedaços de uma espingarda despedaçada... em seguida pernas... então dedos... e flutuando no chafariz da praça, o corpo de {0}, morto(a) por lobisomens. Vocês perderam sua atiradora.</value>
   </string>
   <string key="SeerEaten" >
+    <!-- 0 - Nome da vítima -->
     <value >Os aldeões acordam ao amanhecer e encontram pedaços do que um dia foi {0} em cima de uma mesa de búzios e com cartas de tarô espalhadas pelo chão. A Vidente está morta.</value>
   </string>
   <string key="DrunkEaten" >
+    <!-- 0 - Nome da vítima -->
     <value >Todos acordam com um forte cheiro de álcool e madeira em chamas... O boteco está pegando fogo!!!! Após apagar o incêndio, os restos de {0} são encontrados, tostadinhos...</value>
   </string>
   <string key="FoolEaten" >
+    <!-- 0 - Nome da vítima -->
     <value >À medida que o sol se levanta sobre a Aldeia, os aldeões encontram {0} deitado(a) em cima de uma mesa de búzios, mas com cartas de... Super Trunfo das Meninas Super Poderosas??? HAHAHAHAH QUE TROUXA!</value>
   </string>
   <string key="DefaultEaten" >
+    <!-- 0 - Nome da vítima -->
+    <!-- 1 - Papel da vítima -->
     <value>À medida que todos se levantam durante a manhã, sentem um cheiro horrível. Eles seguem o cheiro para encontrar {0} esquartejado(a) no chiqueiro. NÃÃÃÃÃÃÃÃO {1}</value>
   </string>
   <string key="HunterKilledCultist">
+    <!-- 0 - Nome da vítima -->
     <value>Um enorme fedor esta sendo exalado pela casa de {0}... Os aldeões decidem então entrar lá e encontram um corpo, seus dentes espalhados no chão e agulhas embaixo das unhas deixam bem claro que houve... Um membro da Seita foi torturado e morto pelo Inquisidor!</value>
   </string>
   <string key="NoAttack" >
@@ -249,48 +280,61 @@
     <value >Você foi atacado(a) pelos lobos. Por estar amaldiçoado(a), você se tornou um lobo!</value>
   </string>
   <string key="WolfTeam">
+    <!-- 0 - Nomes dos parceiros -->
     <value>Seu(s) parceiro(s) lobo(s): {0}</value>
   </string>
   <string key="CursedBittenToWolves" >
+    <!-- 0 - Nome da vítima -->
     <value >{0} foi mordido(a).... Mas estava amaldiçoado(a) e se tornou um lobo! Parabéns pelo seu novo companheiro!</value>
   </string>
   <string key="WolvesEatYou" isgif="true" >
     <value >Ah não! Os lobos te devoraram. NÃÃÃÃÃÃÃÃO :/</value>
   </string>
   <string key="WolvesEatDrunk" >
+    <!-- 0 - Nome da vítima -->
     <value >Ah não! {0} estava bêbado(a)! Agora você está bêbado(a) e não poderá atacar na próxima noite...</value>
   </string>
   <string key="GuardWolf" >
     <value >Você tentou proteger um lobo! O lobo te devorou!</value>
   </string>
   <string key="GuardSaved" >
+    <!-- 0 - Nome do jogador salvo -->
     <value >Você salvou a vida de {0}!</value>
   </string>
   <string key="GuardNoAttack" >
+    <!-- 0 - Nome do jogador -->
     <value >{0} não foi atacado(a), então você não fez nada muito útil. Dessa vez.</value>
   </string>
   <string key="GuardEmptyHouse">
+    <!-- 0 - Nome do jogador -->
     <value>Você foi proteger {0}, mas ele(a) não estava em casa!</value>
   </string>
   <string key="GuardSavedYou" >
     <value >Um anjinho da guarda estava cuidando de você na noite passada e espantou os lobos! Que bênção!</value>
   </string>
   <string key="HarlotEaten">
+    <!-- 0 - Nome do jogador -->
     <value >A cortesã escolheu um péssimo dia para tirar folga e ficar em casa. {0} foi devorado(a) pelos lobos!</value>
   </string>
   <string key="HarlotNotHome" >
+    <!-- 0 - Nome do jogador -->
     <value >Estranho... {0} não estava em casa! Sem jantar para você hoje...</value>
   </string>
   <string key="HarlotFuckWolf" >
+    <!-- 0 - Nome do jogador -->
     <value >Você dormiu na casa de {0} para se divertir um pouco mas descobriu tarde demais que ele(a) era um lobo. Você está morto(a).</value>
   </string>
   <string key="HarlotFuckedWolfPublic" >
+    <!-- 0 - Nome do jogador -->
     <value >{0} dormiu na casa de um lobo na noite passada! Seu corpo, antes safado e divertido, foi encontrado jogado na porta da igreja com marcas de mordida...  que triste :(</value>
   </string>
   <string key="HarlotFuckedVictimPublic" >
+    <!-- 0 - Nome da Cortesã -->
+    <!-- 1 - Nome da vítima -->
     <value >{0} foi dormir na casa de {1}, pronto(a) para ter um pouco de diversão e aliviar a tensão. Entretanto, ele(a) encontrou um lobo devorando {1}! O lobo se vira rapidamente em direção a {0} e.... {0} está morto(a)!.</value>
   </string>
   <string key="HarlotVisitNonWolf" >
+    <!-- 0 - Nome do alvo -->
     <value >Você percebe que {0} não é um lobo, já que vocês fizeram um sexo gostoso e selvagem a noite toda!</value>
   </string>
   <string key="HarlotVisitYou" >
